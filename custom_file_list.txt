@@ -1,0 +1,17 @@
+30-cjk-aliases.conf
+30-cjk-aliases.conf.bak
+60-latin.conf
+60-latin.conf.bak
+64-language-selector-prefer.conf
+64-language-selector-prefer.conf.bak
+69-language-selector-ja.conf.bak
+69-language-selector-zh-cn.conf
+69-language-selector-zh-cn.conf.bak
+69-language-selector-zh-hk.conf
+69-language-selector-zh-hk.conf.bak
+69-language-selector-zh-mo.conf
+69-language-selector-zh-mo.conf.bak
+69-language-selector-zh-sg.conf
+69-language-selector-zh-sg.conf.bak
+69-language-selector-zh-tw.conf
+69-language-selector-zh-tw.conf.bak
