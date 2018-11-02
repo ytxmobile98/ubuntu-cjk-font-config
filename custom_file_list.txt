@@ -4,7 +4,6 @@
 60-latin.conf.bak
 64-language-selector-prefer.conf
 64-language-selector-prefer.conf.bak
-69-language-selector-ja.conf.bak
 69-language-selector-zh-cn.conf
 69-language-selector-zh-cn.conf.bak
 69-language-selector-zh-hk.conf
