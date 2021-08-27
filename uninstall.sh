@@ -1,7 +1,7 @@
 source dirs.sh
 
 function clean_dir_if_empty {
-  if [[ -z $(ls "$1") ]]; then
+  if [[ -z $(ls -A "$1") ]]; then
     rmdir -v "$1"
   else
     echo "Directory \"$1\" is not empty so not removed"
