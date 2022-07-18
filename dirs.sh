@@ -1,2 +1,2 @@
-CONFIGDIR=$HOME/.config/fontconfig
+CONFIG_DIR=$HOME/.config/fontconfig
 CONFD=conf.d

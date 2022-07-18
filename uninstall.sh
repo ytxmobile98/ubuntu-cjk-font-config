@@ -1,7 +1,8 @@
-source dirs.sh
+DIRNAME="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
+source "$DIRNAME/dirs.sh"
 
 function clean_dir_if_empty {
-  if [[ -z $(ls -A "$1") ]]; then
+  if [[ -z "$(ls -A "$1")" ]]; then
     rmdir -v "$1"
   else
     echo "Directory \"$1\" is not empty so not removed"
@@ -9,13 +10,12 @@ function clean_dir_if_empty {
 }
 
 function uninstall {
-  for file in $(ls -1 $CONFD); do
-    rm -v "$CONFIGDIR/$CONFD/$file"
-  done
+  # clean up all config files
+  rm -v "$CONFIG_DIR/$CONFD/"*
 
-  # clean up
-  clean_dir_if_empty "$CONFIGDIR/$CONFD"
-  clean_dir_if_empty "$CONFIGDIR"
+  # clean up directories containing the config files
+  clean_dir_if_empty "$CONFIG_DIR/$CONFD"
+  clean_dir_if_empty "$CONFIG_DIR"
 }
 
 uninstall
