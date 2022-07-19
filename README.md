@@ -8,7 +8,7 @@ make install
 ```
 * Copies the `conf.d` directory to `~/.config/fontconfig/`.
 
-After installing the fonts, **log out of your user session and then log in again** to let the changes take effect.
+After installing the font configurations, **log out of your user session and then log in again** to let the changes take effect.
 
 ## Uninstall configurations
 ```bash
@@ -17,7 +17,7 @@ make uninstall
 * Removes the `*.conf` files in the `~/.config/fontconfig/conf.d` directory.
 * Cleans up (removes) the `~/.config/fontconfig/conf.d` and `~/.config/fontconfig/` directories if they are empty.
 
-After uninstalling the fonts, **log out of your user session and then log in again** to let the changes take effect.
+After uninstalling the font configurations, **log out of your user session and then log in again** to let the changes take effect.
 
 # References
 * Ubuntu manpage: `man fonts-conf.5`
