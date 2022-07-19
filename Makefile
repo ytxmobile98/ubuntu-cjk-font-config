@@ -13,6 +13,8 @@ help:
 	@echo "    make install    |  Install the config to current user's config directory"
 	@echo "    make uninstall  |  Uninstall the config from current user's config directory"
 	@echo ""
+	@echo "Please log out of your user session, and then log back in to let the changes take effect."
+	@echo ""
 	@echo "[Current user's config directory]"
 	@echo "    $(USER_CONFIG_DIR)"
 
