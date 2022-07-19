@@ -4,13 +4,13 @@ This repository contains the configuration for CJK fonts.
 
 ## Install configurations
 ```bash
-bash install.sh
+make install
 ```
 * Copies the `conf.d` directory to `~/.config/fontconfig/`.
 
 ## Uninstall configurations
 ```bash
-bash uninstall.sh
+make uninstall
 ```
 * Removes the `*.conf` files in the `~/.config/fontconfig/conf.d` directory.
 * Cleans up (removes) the `~/.config/fontconfig/conf.d` and `~/.config/fontconfig/` directories if they are empty.
